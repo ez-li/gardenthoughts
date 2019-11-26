@@ -1,0 +1,16 @@
+## NPM ##
+npm
+npm-debug.log
+node_modules/
+
+## MAC files ##
+.DS_Store
+
+pids
+*.pid
+logs
+*.log
+
+# Compiled Dirs (http://nodejs.org/api/addons.html)
+build/
+dist/

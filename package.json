@@ -4,7 +4,11 @@
   "description": "website for reading service",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack --mode production",
+    "build:dev": "webpack -d --watch",
+    "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js -w server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,23 @@
   "bugs": {
     "url": "https://github.com/ez-li/gardenthoughts/issues"
   },
-  "homepage": "https://github.com/ez-li/gardenthoughts#readme"
+  "homepage": "https://github.com/ez-li/gardenthoughts#readme",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.8"
+  }
 }
