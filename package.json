@@ -1,0 +1,19 @@
+{
+  "name": "gardenthoughts",
+  "version": "1.0.0",
+  "description": "website for reading service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ez-li/gardenthoughts.git"
+  },
+  "author": "eileen li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ez-li/gardenthoughts/issues"
+  },
+  "homepage": "https://github.com/ez-li/gardenthoughts#readme"
+}
