@@ -4,7 +4,7 @@ const app = express();
 
 // set the port of our application
 // process.env.PORT lets the port be set by Heroku
-var port = process.env.PORT || 3003;
+var port = process.env.PORT || 3000;
 
 const bodyParser = require('body-parser');
 
@@ -22,6 +22,6 @@ app.use((req, res, next) => {
 })
 
 app.listen(port, function() {
-    console.log('Listening on Port 3003...');
+    console.log('Listening on Port 3000...');
 });
 
